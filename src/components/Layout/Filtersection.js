@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import HouseData from "../../Data.json"
+
 const Filtersection = () => {
 
   const [property , setProperty] = useState('');
