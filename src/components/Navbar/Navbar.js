@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const navigate = useNavigate();
   return (
-    <div className='flex justify-evenly items-center h-[15vh] border-2 border-solid border-blue-800 w-full'>
+    <div className='flex justify-evenly items-center h-[15vh] w-full'>
       <div>
         <HiMiniHome onClick={() => navigate("/")} size={30} className='cursor-pointer text-green-800' />
       </div>
