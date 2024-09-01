@@ -1,47 +1,40 @@
 import React, { useState } from 'react'
-import { FaRegHeart } from "react-icons/fa";
-import { FaBed } from "react-icons/fa";
-import { FaBath } from "react-icons/fa";
-import { TbSquareRotated } from "react-icons/tb";
-import { useSelector,useDispatch } from 'react-redux';
+import { FaBath, FaBed, FaRegHeart } from 'react-icons/fa';
+import { TbSquareRotated } from 'react-icons/tb';
+import { useDispatch, useSelector } from 'react-redux';
 import { SetAddToCart } from '../../redux/Slice/ProSlice';
 import heart from "../../assets/heart.png"
 
+const Searched = () => {
 
+    const dispatch = useDispatch();
 
-const Layout = () => {
+    const [cart, setCart] = useState([]);
 
-  const [cart, setCart] = useState([]);
-  const dispatch = useDispatch();
+    const filteredSearch = useSelector((state)=>state.products.SearchByProperty);
+    console.log(filteredSearch,"search");
 
-  const HouseData = useSelector(state => state.products);
-  const Details = HouseData.ProductDetails;
+    const AddtoCart = (id) => {
+        const itemToAdd = filteredSearch.find((item) => item.id === id);
+        
+        // if (itemToAdd) {
+        //   setCart((prevCart) => [...prevCart, {...itemToAdd,"liked":true}]); 
+        // }
+      
+        const cartitem = cart.find(item => item.id === id);
+        if (!cartitem) {
+          setCart((prevCart) => [...prevCart, {...itemToAdd,"liked":true}]); 
+        }else{
+          setCart((prevcart)=>prevcart.filter(item => item.id !==id))
+        }
+      }
+      
+      dispatch(SetAddToCart(cart));
 
-  
-const AddtoCart = (id) => {
-  const itemToAdd = Details.find((item) => item.id === id);
-  
-  // if (itemToAdd) {
-  //   setCart((prevCart) => [...prevCart, {...itemToAdd,"liked":true}]); 
-  // }
-
-  const cartitem = cart.find(item => item.id === id);
-  if (!cartitem) {
-    setCart((prevCart) => [...prevCart, {...itemToAdd,"liked":true}]); 
-  }else{
-    setCart((prevcart)=>prevcart.filter(item => item.id !==id))
-  }
-}
-
-dispatch(SetAddToCart(cart));
-  
-// console.log(cart, 'Item added to cart');
-  
-  
   return (
     <div className='w-[75%] h-100vh flex flex-wrap  items-center gap-3 p-7'>
       {
-         Details.map((detail,index)=>{
+         filteredSearch.map((detail,index)=>{
           const isLiked = cart.some(item => item.id === detail.id);
           return(
            <div key={index} className='w-[22rem] h-[60vh] items-center bg-[#f5f6f9]'>
@@ -84,4 +77,4 @@ dispatch(SetAddToCart(cart));
   )
 }
 
-export default Layout
+export default Searched

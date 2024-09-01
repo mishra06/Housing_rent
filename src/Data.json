@@ -2,6 +2,7 @@
     {
       "id": "1",
       "type": "villa",
+      "city":"Bangalore",
       "amount_per_day": 1410,
       "name_of_property": "Sunny House 1",
       "address": "123 Maple Street, Springfield",
@@ -20,6 +21,7 @@
     },
     {
       "id": "2",
+      "city":"Hyderabad",
       "type": "cottage",
       "amount_per_day": 910,
       "name_of_property": "Cozy Cottage",
@@ -40,6 +42,7 @@
     },
     {
       "id": "3",
+      "city": "Jaipur",
       "type": "cottage",
       "amount_per_day": 2410,
       "name_of_property": "Seaside Retreat",
@@ -60,6 +63,7 @@
     {
       "id": "4",
       "type": "villa",
+      "city": "Nagpur",
       "amount_per_day": 2400,
       "name_of_property": "Rustic Cabin",
       "address": "321 Pine Forest Road, Mountain Valley",
@@ -78,6 +82,7 @@
     },
     {
       "id": "5",
+      "city":"Vadodara",
       "type": "cottage",
       "amount_per_day": 480,
       "name_of_property": "Charming Bungalow",
@@ -97,6 +102,7 @@
     },
     {
       "id": "6",
+      "city":"Varanasi",
       "type": "mansion",
       "amount_per_day": 1030,
       "name_of_property": "Mountain View Lodge",
@@ -116,6 +122,7 @@
     },
     {
       "id": "7",
+      "city": "Srinagar",
       "type": "villa",
       "amount_per_day": 2450,
       "name_of_property": "Country Farmhouse",
@@ -135,6 +142,7 @@
     },
     {
       "id": "8",
+      "city":"Mumbai",
       "type": "cottage",
       "amount_per_day": 1890,
       "name_of_property": "Lakefront Cabin",
@@ -154,6 +162,7 @@
     },
     {
       "id": "9",
+      "city":"Howrah",
       "type": "House",
       "amount_per_day": 1570,
       "name_of_property": "Luxury Villa",
@@ -173,6 +182,7 @@
     },
     {
       "id": "10",
+      "city":"Ranchi",
       "type": "mansion",
       "amount_per_day": 1360,
       "name_of_property": "Historic Manor",
@@ -192,6 +202,7 @@
     },
     {
       "id": "11",
+      "city":"Gwalior",
       "type": "villa",
       "amount_per_day": 1580,
       "name_of_property": "Garden Cottage",
@@ -211,6 +222,7 @@
     },
     {
       "id": "12",
+      "city":"Gwalior",
       "type": "villa",
       "amount_per_day": 1650,
       "name_of_property": "Riverfront Retreat",
@@ -230,6 +242,7 @@
     },
     {
       "id": "13",
+      "city": "Agra",
       "type": "House",
       "amount_per_day": 2450,
       "name_of_property": "Urban Townhouse",
@@ -249,6 +262,7 @@
     },
     {
       "id": "14",
+      "city": "Srinagar",
       "type": "mansion",
       "amount_per_day": 2300,
       "name_of_property": "Lakeview Chalet",
@@ -268,6 +282,7 @@
     },
     {
       "id": "15",
+      "city":"Ranchi",
       "type": "villa",
       "amount_per_day": 870,
       "name_of_property": "Cozy Cottage",
@@ -287,6 +302,7 @@
     },
     {
       "id": "16",
+      "city": "Srinagar",
       "type": "cottage",
       "amount_per_day": 2430,
       "name_of_property": "Modern Loft",
@@ -306,6 +322,7 @@
     },
     {
       "id": "17",
+      "city": "Srinagar",
       "type": "mansion",
       "amount_per_day": 2210,
       "name_of_property": "Seaside Retreat",
@@ -325,6 +342,7 @@
     },
     {
       "id": "18",
+      "city":"Ranchi",
       "type": "mansion",
       "amount_per_day": 1100,
       "name_of_property": "Rustic Cabin",
@@ -344,6 +362,7 @@
     },
     {
       "id": "19",
+      "city": "Srinagar",
       "type": "villa",
       "amount_per_day": 2320,
       "name_of_property": "Luxury Retreat",
@@ -363,6 +382,7 @@
     },
     {
       "id": "20",
+      "city":"Ranchi",
       "type": "lodge",
       "amount_per_day": 2100,
       "name_of_property": "Lake House",
@@ -382,6 +402,7 @@
     },
     {
       "id": "21",
+      "city": "Amritsar",
       "type": "mansion",
       "amount_per_day": 1750,
       "name_of_property": "Family Home",
@@ -401,6 +422,7 @@
     },
     {
       "id": "22",
+      "city": "Agra",
       "type": "cottage",
       "amount_per_day": 1470,
       "name_of_property": "Mountain Cabin",
@@ -420,6 +442,7 @@
     },
     {
       "id": "23",
+      "city": "Amritsar",
       "type": "mansion",
       "amount_per_day": 2290,
       "name_of_property": "City Apartment",
@@ -429,7 +452,7 @@
       "liked":false,
       "size_of_room": "18x15",
       "amenities": ["WiFi", "City View", "Gym"],
-      "image_link":"https://images.unsplash.com/photo-1524781315920-4275382e7f8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDV8MjMwMzE1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "image_link":"https://images.unsplash.com/photo-1527704127313-9738426085be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI2fHxob3VzZXxlbnwwfHwwfHx8MA%3D%3D",
       "available_from": "2024-07-10",
       "contact_info": {
         "name": "Lucas Wilson",
@@ -439,6 +462,7 @@
     },
     {
       "id": "24",
+      "city": "Amritsar",
       "type": "villa",
       "amount_per_day": 1010,
       "name_of_property": "Country Retreat",
@@ -455,7 +479,629 @@
         "phone": "555-0000",
         "email": "lilydavis@example.com"
       }
-    }
-]
+    },
+      {
+        "id": "25",
+        "city":"Madurai",
+        "type": "Apartment",
+        "amount_per_day": 120,
+        "name_of_property": "City Center Loft",
+        "address": "123 Main St, Anytown USA",
+        "no_of_beds": 1,
+        "no_of_bathrooms": 1,
+        "liked": false,
+        "size_of_room": "30x20",
+        "amenities": ["WiFi", "Gym", "Parking"],
+        "image_link": "https://images.unsplash.com/photo-1552903023-dc7b4c9fa5bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTExfHxob3VzZXxlbnwwfHwwfHx8MA%3D%3D",
+        "available_from": "2024-06-01",
+        "contact_info": {
+          "name": "John Doe",
+          "phone": "555-1234",
+          "email": "johndoe@example.com"
+        }
+      },
+        {
+          "id": "26",
+          "city": "Agra",
+          "type": "Luxury Apartment",
+          "amount_per_day": 3000,
+          "name_of_property": "Sunset Boulevard",
+          "address": "102 Ocean View Rd, Seaview City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "60x45",
+          "amenities": ["WiFi", "Infinity Pool", "Private Beach", "Spa"],
+          "image_link": "https://images.unsplash.com/photo-1520681902979-0784b03b638a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-11-15",
+          "contact_info": {
+            "name": "Michael Johnson",
+            "phone": "555-1234",
+            "email": "michaeljohnson@example.com"
+          }
+        },
+        {
+          "id": "27",
+          "city": "Nashik",
+          "type": "Penthouse Suite",
+          "amount_per_day": 3500,
+          "name_of_property": "Skyline Heights",
+          "address": "150 Cloud Dr, Uptown",
+          "no_of_beds": 2,
+          "no_of_bathrooms": 1,
+          "liked": false,
+          "size_of_room": "70x50",
+          "amenities": ["WiFi", "Helipad", "Indoor Pool", "Private Elevator"],
+          "image_link": "https://images.unsplash.com/photo-1483597354466-a8c08f8b16d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-10-01",
+          "contact_info": {
+            "name": "Sophia Lee",
+            "phone": "555-2345",
+            "email": "sophialee@example.com"
+          }
+        },
+        {
+          "id": "28",
+          "city": "Agra",
+          "type": "Luxury Loft",
+          "amount_per_day": 2700,
+          "name_of_property": "The Pinnacle",
+          "address": "88 Highpoint Blvd, Skyline City",
+          "no_of_beds": 2,
+          "no_of_bathrooms": 1,
+          "liked": true,
+          "size_of_room": "55x45",
+          "amenities": ["WiFi", "Rooftop Bar", "Sauna", "Valet Parking"],
+          "image_link": "https://images.unsplash.com/photo-1498176126716-a01bc267f662?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTR8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-09-20",
+          "contact_info": {
+            "name": "Liam Smith",
+            "phone": "555-3456",
+            "email": "liamsmith@example.com"
+          }
+        },
+        {
+          "id": "29",
+          "city":"Madurai",
+          "type": "Luxury Condo",
+          "amount_per_day": 2500,
+          "name_of_property": "Elite Residence",
+          "address": "120 Elite St, Downtown",
+          "no_of_beds": 2,
+          "no_of_bathrooms": 1,
+          "liked": false,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Concierge Service", "Fitness Center", "Conference Room"],
+          "image_link": "https://images.unsplash.com/photo-1562182384-08115de5ee97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-08-30",
+          "contact_info": {
+            "name": "Emma Davis",
+            "phone": "555-4567",
+            "email": "emmadavis@example.com"
+          }
+        },
+        {
+          "id": "30",
+          "city":"Chennai",
+          "type": "Sky Villa",
+          "amount_per_day": 3000,
+          "name_of_property": "Cloud Nine",
+          "address": "200 Skyway Rd, Hilltop",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 1,
+          "liked": true,
+          "size_of_room": "75x55",
+          "amenities": ["WiFi", "Rooftop Terrace", "Outdoor Kitchen", "Butler Service"],
+          "image_link": "https://images.unsplash.com/photo-1529781833076-5f422f69d1af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-07-10",
+          "contact_info": {
+            "name": "Noah Brown",
+            "phone": "555-5678",
+            "email": "noahbrown@example.com"
+          }
+        },
+        {
+          "id": "31",
+          "city": "Nashik",
+          "type": "Luxury Suite",
+          "amount_per_day": 2900,
+          "name_of_property": "Eclipse Tower",
+          "address": "33 Lunar Rd, Cosmos City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 1,
+          "liked": false,
+          "size_of_room": "65x50",
+          "amenities": ["WiFi", "Private Cinema", "Wine Cellar", "Personal Chef"],
+          "image_link": "https://plus.unsplash.com/premium_photo-1686090450488-48ce19426bbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-06-25",
+          "contact_info": {
+            "name": "Olivia Martinez",
+            "phone": "555-6789",
+            "email": "oliviamartinez@example.com"
+          }
+        },
+        {
+          "id": "32",
+          "city": "Coimbatore",
+          "type": "Luxury Apartment",
+          "amount_per_day": 2500,
+          "name_of_property": "Skyline Penthouse",
+          "address": "101 Highrise Ave, Metropolis",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "50x40",
+          "amenities": ["WiFi", "Rooftop Pool", "Gym", "24/7 Concierge"],
+          "image_link": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-12-01",
+          "contact_info": {
+            "name": "Jessica Taylor",
+            "phone": "555-9876",
+            "email": "jessicataylor@example.com"
+          }
+        },
+        {
+          "id": "33",
+          "city": "Agra",
+          "type": "Luxury Apartment",
+          "amount_per_day": 3200,
+          "name_of_property": "Ocean Breeze",
+          "address": "11 Seaside Ln, Bayview",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Private Balcony", "Beach Access", "Tennis Court"],
+          "image_link": "https://images.unsplash.com/photo-1516281717304-181e285c6e58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-05-14",
+          "contact_info": {
+            "name": "James Wilson",
+            "phone": "555-7890",
+            "email": "jameswilson@example.com"
+          }
+        },
+        {
+          "id": "34",
+          "city": "Pune",
+          "type": "Luxury Loft",
+          "amount_per_day": 2750,
+          "name_of_property": "Cityscape Loft",
+          "address": "55 Urban St, Downtown",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": false,
+          "size_of_room": "55x45",
+          "amenities": ["WiFi", "Sky Lounge", "Fitness Center", "Pet Spa"],
+          "image_link": "https://images.unsplash.com/photo-1508330570239-ce7cabceee22?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-04-23",
+          "contact_info": {
+            "name": "Charlotte Garcia",
+            "phone": "555-8901",
+            "email": "charlottegarcia@example.com"
+          }
+        },
+        {
+          "id": "35",
+          "city": "Coimbatore",
+          "type": "Penthouse Suite",
+          "amount_per_day": 3600,
+          "name_of_property": "Starlight Tower",
+          "address": "20 Nova Rd, Starsville",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "70x55",
+          "amenities": ["WiFi", "Private Observatory", "Infinity Pool", "Personal Trainer"],
+          "image_link": "https://images.unsplash.com/photo-1491403865995-cda9c458c314?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-03-15",
+          "contact_info": {
+            "name": "Ethan Martinez",
+            "phone": "555-9012",
+            "email": "ethanmartinez@example.com"
+          }
+        },
+        {
+          "id": "36",
+          "city": "Pune",
+          "type": "Sky Villa",
+          "amount_per_day": 4200,
+          "name_of_property": "Heaven's Gate",
+          "address": "111 Skyview Rd, Summit",
+          "no_of_beds": 2,
+          "no_of_bathrooms": 1,
+          "liked": false,
+          "size_of_room": "80x60",
+          "amenities": ["WiFi", "Helipad", "Outdoor Pool", "In-House Cinema"],
+          "image_link": "https://images.unsplash.com/photo-1519302959554-a75be0afc82a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-02-27",
+          "contact_info": {
+            "name": "Amelia Hernandez",
+            "phone": "555-0123",
+            "email": "ameliahernandez@example.com"
+          }
+        },
+        {
+          "id": "37",
+          "city": "Agra",
+          "type": "Luxury Condo",
+          "amount_per_day": 2600,
+          "name_of_property": "Urban Oasis",
+          "address": "303 Central Park Ave, Metro City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "50x45",
+          "amenities": ["WiFi", "Garden Terrace", "Indoor Pool", "Pet-Friendly"],
+          "image_link": "https://images.unsplash.com/photo-1504233529578-6d46baba6d34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-01-18",
+          "contact_info": {
+            "name": "Mason King",
+            "phone": "555-2345",
+            "email": "masonking@example.com"
+          }
+        },
+        {
+          "id": "38",
+          "city":"Madurai",
+          "type": "Luxury Suite",
+          "amount_per_day": 2800,
+          "name_of_property": "Vista Tower",
+          "address": "909 Panorama St, Hillside",
+          "no_of_beds": 4,
+          "no_of_bathrooms": 3,
+          "liked": true,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Infinity Pool", "Sauna", "Game Room"],
+          "image_link": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-12-10",
+          "contact_info": {
+            "name": "Isabella Wright",
+            "phone": "555-3456",
+            "email": "isabellawright@example.com"
+          }
+        },
+        {
+          "id": "39",
+          "city":"Kolkata",
+          "type": "Luxury Apartment",
+          "amount_per_day": 3100,
+          "name_of_property": "Crystal Palace",
+          "address": "404 Gemstone Blvd, Jewel City",
+          "no_of_beds": 4,
+          "no_of_bathrooms": 3,
+          "liked": false,
+          "size_of_room": "65x50",
+          "amenities": ["WiFi", "Sky Garden", "Concierge Service", "Private Gym"],
+          "image_link": "https://plus.unsplash.com/premium_photo-1661964475795-f0cb85767a88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-11-20",
+          "contact_info": {
+            "name": "Mia Scott",
+            "phone": "555-4567",
+            "email": "miascott@example.com"
+          }
+        },
+        {
+          "id": "40",
+          "city":"Madurai",
+          "type": "Penthouse Suite",
+          "amount_per_day": 3700,
+          "name_of_property": "Eagle's Nest",
+          "address": "1011 Highpoint Rd, Eagle City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "70x55",
+          "amenities": ["WiFi", "Private Rooftop", "Helipad", "In-House Chef"],
+          "image_link": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-10-25",
+          "contact_info": {
+            "name": "Lucas Brown",
+            "phone": "555-5678",
+            "email": "lucasbrown@example.com"
+          }
+        },
+        {
+          "id": "41",
+          "city": "Agra",
+          "type": "Sky Villa",
+          "amount_per_day": 4300,
+          "name_of_property": "Cloud Castle",
+          "address": "77 Summit St, Heights",
+          "no_of_beds": 2,
+          "no_of_bathrooms": 1,
+          "liked": true,
+          "size_of_room": "80x60",
+          "amenities": ["WiFi", "Infinity Pool", "Wine Cellar", "Personal Trainer"],
+          "image_link": "https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-09-05",
+          "contact_info": {
+            "name": "Ella Lopez",
+            "phone": "555-6789",
+            "email": "ellalopez@example.com"
+          }
+        },
+        {
+          "id": "42",
+          "city":"Madurai",
+          "type": "Luxury Condo",
+          "amount_per_day": 2650,
+          "name_of_property": "Metropolitan",
+          "address": "18 Cityview Blvd, Downtown",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": false,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Sky Lounge", "Fitness Center", "Game Room"],
+          "image_link": "https://images.unsplash.com/photo-1523688471150-efdd09f0f312?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-08-14",
+          "contact_info": {
+            "name": "Mason Lee",
+            "phone": "555-7890",
+            "email": "masonlee@example.com"
+          }
+        },
+        {
+          "id": "43",
+          "city":"Delhi",
+          "type": "Luxury Loft",
+          "amount_per_day": 2800,
+          "name_of_property": "Skyline Loft",
+          "address": "99 Highrise Rd, Skyline City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "55x45",
+          "amenities": ["WiFi", "Rooftop Pool", "Valet Parking", "Pet Spa"],
+          "image_link": "https://media.istockphoto.com/id/157331107/photo/after-the-storm.webp?a=1&b=1&s=612x612&w=0&k=20&c=UGtzkrlv59SPhzUsE9r6X4I3f5sbhL-Z8gBXTBDhbkA=",
+          "available_from": "2028-07-25",
+          "contact_info": {
+            "name": "Sophia White",
+            "phone": "555-8901",
+            "email": "sophiawhite@example.com"
+          }
+        },
+        {
+          "id": "44",
+          "city": "Agra",
+          "type": "Luxury Suite",
+          "amount_per_day": 2950,
+          "name_of_property": "Star Tower",
+          "address": "777 Galaxy Blvd, Star City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "65x55",
+          "amenities": ["WiFi", "Private Cinema", "Wine Cellar", "Personal Trainer"],
+          "image_link": "https://plus.unsplash.com/premium_photo-1661876449499-26de7959878f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-06-08",
+          "contact_info": {
+            "name": "Isabella Martinez",
+            "phone": "555-9012",
+            "email": "isabellamartinez@example.com"
+          }
+        },
+        {
+          "id": "45",
+          "city":"Kolkata",
+          "type": "Penthouse Suite",
+          "amount_per_day": 3800,
+          "name_of_property": "Infinity Tower",
+          "address": "88 Horizon St, Utopia",
+          "no_of_beds": 4,
+          "no_of_bathrooms": 2,
+          "liked": false,
+          "size_of_room": "70x60",
+          "amenities": ["WiFi", "Private Rooftop", "In-House Chef", "Butler Service"],
+          "image_link": "https://images.unsplash.com/photo-1501635238895-63f29cfc06b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-05-20",
+          "contact_info": {
+            "name": "Ethan Hernandez",
+            "phone": "555-0123",
+            "email": "ethanhernandez@example.com"
+          }
+        },
+        {
+          "id": "46",
+          "city":"Srinagar",
+          "type": "Luxury Apartment",
+          "amount_per_day": 2600,
+          "name_of_property": "Aurora Heights",
+          "address": "44 Northstar Rd, Aurora City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "50x45",
+          "amenities": ["WiFi", "Rooftop Pool", "Fitness Center", "24/7 Concierge"],
+          "image_link": "https://plus.unsplash.com/premium_photo-1661908377130-772731de98f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2028-04-05",
+          "contact_info": {
+            "name": "Olivia King",
+            "phone": "555-1234",
+            "email": "oliviaking@example.com"
+          }
+        },
+        {
+          "id": "47",
+          "city":"Kolkata",
+          "type": "Luxury Loft",
+          "amount_per_day": 2900,
+          "name_of_property": "Urban Loft",
+          "address": "121 Metropolis Rd, Urban City",
+          "no_of_beds": 4,
+          "no_of_bathrooms": 3,
+          "liked": true,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Sky Lounge", "Sauna", "Pet-Friendly"],
+          "image_link": "https://images.unsplash.com/photo-1611602132416-da2045990f76?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2028-03-18",
+          "contact_info": {
+            "name": "Liam Scott",
+            "phone": "555-2345",
+            "email": "liamscott@example.com"
+          }
+        },
+        {
+          "id": "48",
+          "city":"Srinagar",
+          "type": "Penthouse Suite",
+          "amount_per_day": 3700,
+          "name_of_property": "Summit Tower",
+          "address": "909 Heights Rd, Highview",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": false,
+          "size_of_room": "75x60",
+          "amenities": ["WiFi", "Infinity Pool", "Wine Cellar", "Private Gym"],
+          "image_link": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2028-02-10",
+          "contact_info": {
+            "name": "Charlotte Davis",
+            "phone": "555-3456",
+            "email": "charlottedavis@example.com"
+          }
+        },
+        {
+          "id": "49",
+          "city":"Srinagar",
+          "type": "Sky Villa",
+          "amount_per_day": 4400,
+          "name_of_property": "Celestial View",
+          "address": "123 Skyward Rd, Horizon",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "85x65",
+          "amenities": ["WiFi", "Helipad", "Outdoor Pool", "In-House Cinema"],
+          "image_link": "https://images.unsplash.com/photo-1494526585095-c41746248156?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2028-01-29",
+          "contact_info": {
+            "name": "Noah Martinez",
+            "phone": "555-4567",
+            "email": "noahmartinez@example.com"
+          }
+        },
+        {
+          "id": "50",
+          "city":"Delhi",
+          "type": "Luxury Condo",
+          "amount_per_day": 2700,
+          "name_of_property": "Urban Luxe",
+          "address": "77 City Square, Downtown",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": false,
+          "size_of_room": "50x45",
+          "amenities": ["WiFi", "Garden Terrace", "Indoor Pool", "Pet-Friendly"],
+          "image_link": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2027-12-21",
+          "contact_info": {
+            "name": "Mia Brown",
+            "phone": "555-5678",
+            "email": "miabrown@example.com"
+          }
+        },
+        {
+          "id": "51",
+          "city":"Delhi",
+          "type": "Luxury Suite",
+          "amount_per_day": 3100,
+          "name_of_property": "Vista Point",
+          "address": "500 Skyline Rd, Panorama City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "65x55",
+          "amenities": ["WiFi", "Infinity Pool", "Sauna", "Game Room"],
+          "image_link": "https://images.unsplash.com/photo-1444676632488-26a136c45b9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlfGVufDB8fDB8fHww",
+          "available_from": "2027-11-16",
+          "contact_info": {
+            "name": "Lucas Martinez",
+            "phone": "555-6789",
+            "email": "lucasmartinez@example.com"
+          }
+        },
+        {
+          "id": "52",
+          "city":"Delhi",
+          "type": "Luxury Apartment",
+          "amount_per_day": 2700,
+          "name_of_property": "Grand Tower",
+          "address": "1 Majesty Rd, Kingstown",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 1,
+          "liked": true,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Sky Garden", "Concierge Service", "Private Gym"],
+          "image_link": "https://plus.unsplash.com/premium_photo-1661915661139-5b6a4e4a6fcc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2027-10-11",
+          "contact_info": {
+            "name": "Ella Scott",
+            "phone": "555-7890",
+            "email": "ellascott@example.com"
+          }
+        },
+        {
+          "id": "53",
+          "city":"Chennai",
+          "type": "Penthouse Suite",
+          "amount_per_day": 3900,
+          "name_of_property": "Sky Palace",
+          "address": "200 Crystal Rd, Jewel City",
+          "no_of_beds": 1,
+          "no_of_bathrooms": 1,
+          "liked": false,
+          "size_of_room": "75x60",
+          "amenities": ["WiFi", "Private Rooftop", "Helipad", "In-House Chef"],
+          "image_link": "https://images.unsplash.com/photo-1434082033009-b81d41d32e1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2027-09-05",
+          "contact_info": {
+            "name": "Liam Brown",
+            "phone": "555-8901",
+            "email": "liambrown@example.com"
+          }
+        },
+        {
+          "id": "54",
+          "city":"Chennai",
+          "type": "Sky Villa",
+          "amount_per_day": 4500,
+          "name_of_property": "Summit Mansion",
+          "address": "123 Peak Rd, Heights",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "85x65",
+          "amenities": ["WiFi", "Infinity Pool", "Wine Cellar", "Personal Trainer"],
+          "image_link": "https://images.unsplash.com/photo-1452626212852-811d58933cae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2027-08-22",
+          "contact_info": {
+            "name": "Noah Davis",
+            "phone": "555-0123",
+            "email": "noahdavis@example.com"
+          }
+        },
+        {
+          "id": "55",
+          "city":"Kerla",
+          "type": "Luxury Condo",
+          "amount_per_day": 2750,
+          "name_of_property": "City Lights",
+          "address": "55 Skyline Rd, Metro City",
+          "no_of_beds": 3,
+          "no_of_bathrooms": 2,
+          "liked": true,
+          "size_of_room": "60x50",
+          "amenities": ["WiFi", "Garden Terrace", "Indoor Pool", "Pet-Friendly"],
+          "image_link": "https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2V8ZW58MHx8MHx8fDA%3D",
+          "available_from": "2027-07-15",
+          "contact_info": {
+            "name": "Ethan Wright",
+            "phone": "555-2345",
+            "email": "ethanwright@example.com"
+          }
+        }
+      
+    ]   
+      
 
 

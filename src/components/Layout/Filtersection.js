@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 import HouseData from "../../Data.json"
 
 const Filtersection = () => {
@@ -46,6 +45,18 @@ const Filtersection = () => {
     },
     {
       Price:'2500-3000'
+    },
+    {
+      Price:'3000-3500'
+    },
+    {
+      Price:'3500-4000'
+    },
+    {
+      Price:'4000-4500'
+    },
+    {
+      Price:'4500-5000'
     }
   ]
 
