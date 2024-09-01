@@ -55,7 +55,7 @@ const Navbar = () => {
             <input
             value={search}
             onChange={(e)=>{setSearch(e.target.value)}}
-             className='border-2 border-solid border-gray p-1 placeholder-gray-500 rounded px-2 bg-[#f1f7ff] ' placeholder="Search" type="text" />
+             className='border-2 border-solid border-gray p-1 placeholder-gray-500 rounded px-2 bg-[#f1f7ff] ' placeholder="Search by name and city" type="text" />
             <button onClick={submitHandeler} className='border-2 border-solid border-black px-4 py-1 rounded-[8px] outline-none hover:text-white hover:bg-black'>Search</button>
         </div>
         <div>

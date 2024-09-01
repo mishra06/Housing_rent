@@ -39,16 +39,16 @@ dispatch(SetAddToCart(cart));
   
   
   return (
-    <div className='w-[75%] h-100vh flex flex-wrap  items-center gap-3 p-7'>
+    <div className='layOut_section w-[75%] h-100vh flex flex-wrap  items-center gap-3 p-7'>
       {
          Details.map((detail,index)=>{
           const isLiked = cart.some(item => item.id === detail.id);
           return(
-           <div key={index} className='w-[22rem] h-[60vh] items-center bg-[#f5f6f9]'>
+           <div key={index} className='layout_inner_section w-[22rem] h-[60vh] items-center bg-[#f5f6f9]'>
             <div className='w-full h-[60%]'>
               <img className='w-full h-full' src={detail.image_link} alt="" />
             </div>
-            <div className='w-[90%] flex flex-col h-[30%]'>
+            <div className='layout_second_inner_section w-[90%] flex flex-col h-[30%]'>
               <div className='flex justify-between items-center px-2 py-1'>
                 <p className='text-lg font-medium'>{detail.amount_per_day}/day's</p>
                 <span onClick={()=>{ AddtoCart(detail.id)}} className='text-xl font-bold cursor-pointer'>

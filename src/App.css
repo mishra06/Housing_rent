@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+  .filterSection{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1.5rem;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .filterSection_first_inner_div{
+    width: 100%;
+    height:auto;
+    flex-direction: column;
+    padding-left: 40px;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .filterSection_first_1_inner_div{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .layOut_section{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .layout_inner_section{
+    width: 80%;
+    height: 90vh;
+  }
+
+  .layout_second_inner_section{
+    justify-content: space-evenly;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (min-width: 603px) and (max-width: 768px){
+  .filterSection{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1.5rem;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filterSection_first_inner_div{
+    width: 100%;
+    height:auto;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .filterSection_first_1_inner_div{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .layOut_section{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .layout_inner_section{
+    width: 80%;
+    height: 80vh;
+  }
+
+  .layout_second_inner_section{
+    justify-content: space-evenly;
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (min-width: 425px) and (max-width: 600px){
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .filterSection{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1.5rem;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .filterSection_first_inner_div{
+    width: 100%;
+    height:auto;
+    flex-direction: column;
+    padding-left: 40px;
   }
+
+  .filterSection_first_1_inner_div{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .layOut_section{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .layout_inner_section{
+    width: 80%;
+    height: 80vh;
+  }
+
+  .layout_second_inner_section{
+    justify-content: space-evenly;
+  }
+
 }

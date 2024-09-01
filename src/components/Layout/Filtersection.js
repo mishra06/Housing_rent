@@ -70,45 +70,52 @@ const Filtersection = () => {
 
 
   return (
-    <div className=' bg-[#f5f6f9] h-[15vh] w-[85%] justify-between items-center flex  text-left flex-wrap'>
-      <div>
-        <p className='text-xl font-medium'>Enter City</p>
-        <input className=' bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="text" />
-      </div>
-      <hr />
-      <div>
-        <p className='text-xl font-medium'>Date</p>
-        <input className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="date" name="" id="" />
-      </div>
-      <hr />
-      <div>
-        <p className='text-xl font-medium'>Price</p>
-        <select className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' value={price} onChange={PriceType}>
-        <option value="">0-3000</option>
-        {
-          PricefilterOptions.map((item,index)=>{
-            return(
-              <option key={index} value={item.Price}>{item.Price}</option>
-            )
-          })
-        }
-        </select>
-      </div>
-      <hr />
-      <div>
-        <p className='text-xl font-medium'>Property type</p>
-        <select className='h-8 w-[15rem] border-2 border-solid border-gray rounded bg-[#f1f7ff]' value={property} onChange={PropertyType} >
-          <option value="All">All</option>
-          {propertytypesOptions.map((item,index)=>{
-            return(
-              <option key={index} value={item.name}>{item.name}</option>
-            )
-          })}
+    <div className='filterSection bg-[#f5f6f9] h-[15vh] w-[85%] justify-evenly items-center flex text-left flex-wrap'>
+      <div className='filterSection_first_inner_div w-full h-full flex w-[80%] h-full justify-evenly align-center gap-6 '>
+        <div className='filterSection_first_1_inner_div flex justify-between w-[50%] h-full items-center gap-4'>
+            <div className='filterSection_first_2_inner_div flex flex-col justify-evenly w-full h-full'>
+              <p className='text-xl font-medium'>Enter City</p>
+              <input className=' bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="text" />
+            </div>
 
-        </select>
+            <div className='flex flex-col justify-evenly w-full h-full'>
+              <p className='text-xl font-medium'>Date</p>
+              <input className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="date" name="" id="" />
+            </div>
+
+        </div>
+        <div className='filterSection_first_1_inner_div flex justify-between w-[50%] h-full items-center gap-4'>
+
+            <div className='flex flex-col justify-evenly w-full h-full'>
+              <p className='text-xl font-medium'>Price</p>
+              <select className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' value={price} onChange={PriceType}>
+              <option value="">0-3000</option>
+              {
+                PricefilterOptions.map((item,index)=>{
+                  return(
+                    <option key={index} value={item.Price}>{item.Price}</option>
+                  )
+                })
+              }
+              </select>
+            </div>
+
+            <div className='flex flex-col justify-evenly w-full h-full'>
+              <p className='text-xl font-medium'>Property type</p>
+              <select className='h-8 w-[15rem] border-2 border-solid border-gray rounded bg-[#f1f7ff]' value={property} onChange={PropertyType} >
+                <option value="All">All</option>
+                {propertytypesOptions.map((item,index)=>{
+                  return(
+                    <option key={index} value={item.name}>{item.name}</option>
+                  )
+                })}
+
+              </select>
+            </div>
+
+        </div> 
       </div>
-      <hr />
-      <div>
+      <div className='filterSection_second_inner_div'>
         <button onClick={()=>{}} className='border-2 border-solid border-black px-4 py-1 rounded-[8px] hover:bg-black hover:text-white '>Search</button>
       </div>
     </div>
