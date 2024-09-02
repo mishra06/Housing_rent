@@ -38,7 +38,7 @@
   }
 }
 
-@media only screen and (min-width: 582px) and (max-width: 768px){
+@media only screen and (min-width: 581px) and (max-width: 768px){
   .filterSection{
     flex-direction: column;
     width: 100%;
