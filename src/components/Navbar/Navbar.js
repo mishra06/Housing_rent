@@ -28,7 +28,8 @@ const Navbar = () => {
       const filteredSearchResults = searched.filter((item) => {
         return (
           item.name_of_property?.toLowerCase().includes(search.toLowerCase()) ||
-          item.address?.toLowerCase().includes(search.toLowerCase())
+          item.address?.toLowerCase().includes(search.toLowerCase()) ||
+          item.city?.toLowerCase().includes(search.toLowerCase())
         );
       });
       dispatch(SetSearchByProperty(filteredSearchResults));
