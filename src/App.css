@@ -39,6 +39,33 @@
 }
 
 @media only screen and (min-width: 581px) and (max-width: 768px){
+  .navbar_sec{
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .navbar_second_sec > h1{
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  .navbar_third_sec{
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+  }
+
+  .navbar_third_first{
+    flex-direction: column;
+  }
+  .navbar_third_first > input{
+    width: 100%;
+  }
+
+  .navbar_submit_buttom > button{
+    width: 100%;
+    
+  }
+
   .filterSection{
     flex-direction: column;
     width: 100%;
@@ -78,7 +105,34 @@
   }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 580px){
+@media only screen and (min-width: 421px) and (max-width: 580px){
+
+  .navbar_sec{
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .navbar_second_sec > h1{
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .navbar_third_sec{
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+  }
+
+  .navbar_third_first{
+    /* flex-direction: column; */
+  }
+  .navbar_third_first > input{
+    width: 100%;
+  }
+
+  .navbar_submit_buttom > button{
+    width: 100%;
+    
+  }
 
   .filterSection{
     flex-direction: column;
@@ -108,6 +162,7 @@
   .layOut_section{
     width: 100%;
     justify-content: center;
+    padding: 5px;
   }
 
   .layout_inner_section{
@@ -119,4 +174,73 @@
     justify-content: space-evenly;
   }
 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px){
+  .navbar_sec{
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .navbar_second_sec > h1{
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  .navbar_third_sec{
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+  }
+
+  .navbar_third_first{
+    flex-direction: column;
+  }
+  .navbar_third_first > input{
+    width: 100%;
+  }
+
+  .navbar_submit_buttom > button{
+    width: 100%;
+    
+  }
+
+  .filterSection{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1.5rem;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filterSection_first_inner_div{
+    width: 100%;
+    height:auto;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .filterSection_first_1_inner_div{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .layOut_section{
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .layout_inner_section{
+    width: 80%;
+    height: 80vh;
+  }
+
+  .layout_second_inner_section{
+    justify-content: space-evenly;
+  }
 }
