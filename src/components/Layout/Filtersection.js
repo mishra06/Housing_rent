@@ -1,17 +1,26 @@
 import React, { useState } from 'react'
 import HouseData from "../../Data.json"
+import { SetSearchByProperty } from '../../redux/Slice/ProSlice';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const Filtersection = () => {
 
-  const [property , setProperty] = useState('');
-  const [price, setPrice] = useState("");
+  
+  const [city, setCity] = useState("");
+  const [date, setDate] = useState("");
+  const [selectPrice, setSelectPrice] = useState("");
+  const [selectProperty , setSelectProperty] = useState("");
+
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const propertytypesOptions= [
     {
       name:'house',
     },
     {
-      name:'PG',
+      name:'mansion',
     },
     {
       name:'Farm House',
@@ -24,6 +33,9 @@ const Filtersection = () => {
     },
     {
       name:'Oyo',
+    },
+    {
+      name:'lodge',
     },
   ]
 
@@ -60,12 +72,26 @@ const Filtersection = () => {
     }
   ]
 
-  const PropertyType=(e)=>{
-      setProperty(e.target.value)
-  }
-
-  const PriceType=(e)=>{
-    setPrice(e.target.value);
+  const SubmitHandeler=()=>{
+    if(city==="" && date==="" && selectPrice==="" && selectProperty===""){
+      alert("Please select atleast one filter")
+      return;
+    }
+    else{
+      const filteredSearch = HouseData.filter((item)=>{
+        return(
+          item.name_of_property?.toLowerCase().includes(selectProperty.toLowerCase()) ||
+          item.amount_per_day.toString().includes(selectPrice) ||
+          item.city?.toLowerCase().includes(city.toLowerCase())
+        );
+      });
+      dispatch(SetSearchByProperty(filteredSearch));
+      setCity("");
+      setDate("");
+      setSelectPrice("");
+      setSelectProperty("");
+      navigate("/search");
+    }
   }
 
 
@@ -75,12 +101,17 @@ const Filtersection = () => {
         <div className='filterSection_first_1_inner_div flex justify-between w-[50%] h-full items-center gap-4'>
             <div className='filterSection_first_2_inner_div flex flex-col justify-evenly w-full h-full'>
               <p className='text-xl font-medium'>Enter City</p>
-              <input className=' bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="text" />
+              <input className=' bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded'
+              onChange={(e)=>{setCity(e.target.value)}}
+              value={city} type="text" />
             </div>
 
             <div className='flex flex-col justify-evenly w-full h-full'>
               <p className='text-xl font-medium'>Date</p>
-              <input className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="date" name="" id="" />
+              <input 
+              value={date} 
+              onChange={(e)=>{setDate(e.target.value)}}
+              className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="date" name="" id="" />
             </div>
 
         </div>
@@ -88,7 +119,10 @@ const Filtersection = () => {
 
             <div className='flex flex-col justify-evenly w-full h-full'>
               <p className='text-xl font-medium'>Price</p>
-              <select className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' value={price} onChange={PriceType}>
+              <select 
+              value={selectPrice} 
+              onChange={(e)=>{setSelectPrice(e.target.value)}}
+              className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded'>
               <option value="">0-3000</option>
               {
                 PricefilterOptions.map((item,index)=>{
@@ -102,7 +136,10 @@ const Filtersection = () => {
 
             <div className='flex flex-col justify-evenly w-full h-full'>
               <p className='text-xl font-medium'>Property type</p>
-              <select className='h-8 w-[15rem] border-2 border-solid border-gray rounded bg-[#f1f7ff]' value={property} onChange={PropertyType} >
+              <select 
+              value={selectProperty}
+              onChange={(e)=>{setSelectProperty(e.target.value)}}
+              className='h-8 w-[15rem] border-2 border-solid border-gray rounded bg-[#f1f7ff]' >
                 <option value="All">All</option>
                 {propertytypesOptions.map((item,index)=>{
                   return(
@@ -116,7 +153,7 @@ const Filtersection = () => {
         </div> 
       </div>
       <div className='filterSection_second_inner_div'>
-        <button onClick={()=>{}} className='border-2 border-solid border-black px-4 py-1 rounded-[8px] hover:bg-black hover:text-white '>Search</button>
+        <button onClick={SubmitHandeler} className='border-2 border-solid border-black px-4 py-1 rounded-[8px] hover:bg-black hover:text-white '>Search</button>
       </div>
     </div>
   )

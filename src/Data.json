@@ -483,7 +483,7 @@
       {
         "id": "25",
         "city":"Madurai",
-        "type": "Apartment",
+        "type": "oyo",
         "amount_per_day": 120,
         "name_of_property": "City Center Loft",
         "address": "123 Main St, Anytown USA",
@@ -503,7 +503,7 @@
         {
           "id": "26",
           "city": "Agra",
-          "type": "Luxury Apartment",
+          "type": "Hotel",
           "amount_per_day": 3000,
           "name_of_property": "Sunset Boulevard",
           "address": "102 Ocean View Rd, Seaview City",
@@ -523,7 +523,7 @@
         {
           "id": "27",
           "city": "Nashik",
-          "type": "Penthouse Suite",
+          "type": "hotel",
           "amount_per_day": 3500,
           "name_of_property": "Skyline Heights",
           "address": "150 Cloud Dr, Uptown",
@@ -543,7 +543,7 @@
         {
           "id": "28",
           "city": "Agra",
-          "type": "Luxury Loft",
+          "type": "oyo",
           "amount_per_day": 2700,
           "name_of_property": "The Pinnacle",
           "address": "88 Highpoint Blvd, Skyline City",
@@ -563,7 +563,7 @@
         {
           "id": "29",
           "city":"Madurai",
-          "type": "Luxury Condo",
+          "type": "hotel",
           "amount_per_day": 2500,
           "name_of_property": "Elite Residence",
           "address": "120 Elite St, Downtown",
@@ -603,7 +603,7 @@
         {
           "id": "31",
           "city": "Nashik",
-          "type": "Luxury Suite",
+          "type": "cottage",
           "amount_per_day": 2900,
           "name_of_property": "Eclipse Tower",
           "address": "33 Lunar Rd, Cosmos City",
@@ -623,7 +623,7 @@
         {
           "id": "32",
           "city": "Coimbatore",
-          "type": "Luxury Apartment",
+          "type": "Hotel",
           "amount_per_day": 2500,
           "name_of_property": "Skyline Penthouse",
           "address": "101 Highrise Ave, Metropolis",
@@ -643,7 +643,7 @@
         {
           "id": "33",
           "city": "Agra",
-          "type": "Luxury Apartment",
+          "type": "Farm house",
           "amount_per_day": 3200,
           "name_of_property": "Ocean Breeze",
           "address": "11 Seaside Ln, Bayview",
@@ -663,7 +663,7 @@
         {
           "id": "34",
           "city": "Pune",
-          "type": "Luxury Loft",
+          "type": "oyo",
           "amount_per_day": 2750,
           "name_of_property": "Cityscape Loft",
           "address": "55 Urban St, Downtown",
@@ -683,7 +683,7 @@
         {
           "id": "35",
           "city": "Coimbatore",
-          "type": "Penthouse Suite",
+          "type": "Hotel",
           "amount_per_day": 3600,
           "name_of_property": "Starlight Tower",
           "address": "20 Nova Rd, Starsville",
@@ -723,7 +723,7 @@
         {
           "id": "37",
           "city": "Agra",
-          "type": "Luxury Condo",
+          "type": "lodge",
           "amount_per_day": 2600,
           "name_of_property": "Urban Oasis",
           "address": "303 Central Park Ave, Metro City",
@@ -743,7 +743,7 @@
         {
           "id": "38",
           "city":"Madurai",
-          "type": "Luxury Suite",
+          "type": "oyo",
           "amount_per_day": 2800,
           "name_of_property": "Vista Tower",
           "address": "909 Panorama St, Hillside",
@@ -763,7 +763,7 @@
         {
           "id": "39",
           "city":"Kolkata",
-          "type": "Luxury Apartment",
+          "type": "Farm house",
           "amount_per_day": 3100,
           "name_of_property": "Crystal Palace",
           "address": "404 Gemstone Blvd, Jewel City",
@@ -783,7 +783,7 @@
         {
           "id": "40",
           "city":"Madurai",
-          "type": "Penthouse Suite",
+          "type": "Hotel",
           "amount_per_day": 3700,
           "name_of_property": "Eagle's Nest",
           "address": "1011 Highpoint Rd, Eagle City",
@@ -823,7 +823,7 @@
         {
           "id": "42",
           "city":"Madurai",
-          "type": "Luxury Condo",
+          "type": "cottage",
           "amount_per_day": 2650,
           "name_of_property": "Metropolitan",
           "address": "18 Cityview Blvd, Downtown",
@@ -843,7 +843,7 @@
         {
           "id": "43",
           "city":"Delhi",
-          "type": "Luxury Loft",
+          "type": "oyo",
           "amount_per_day": 2800,
           "name_of_property": "Skyline Loft",
           "address": "99 Highrise Rd, Skyline City",
@@ -863,7 +863,7 @@
         {
           "id": "44",
           "city": "Agra",
-          "type": "Luxury Suite",
+          "type": "mansion",
           "amount_per_day": 2950,
           "name_of_property": "Star Tower",
           "address": "777 Galaxy Blvd, Star City",
@@ -883,7 +883,7 @@
         {
           "id": "45",
           "city":"Kolkata",
-          "type": "Penthouse Suite",
+          "type": "Hotel",
           "amount_per_day": 3800,
           "name_of_property": "Infinity Tower",
           "address": "88 Horizon St, Utopia",
@@ -903,7 +903,7 @@
         {
           "id": "46",
           "city":"Srinagar",
-          "type": "Luxury Apartment",
+          "type": "Farm house",
           "amount_per_day": 2600,
           "name_of_property": "Aurora Heights",
           "address": "44 Northstar Rd, Aurora City",
@@ -923,7 +923,7 @@
         {
           "id": "47",
           "city":"Kolkata",
-          "type": "Luxury Loft",
+          "type": "lodge",
           "amount_per_day": 2900,
           "name_of_property": "Urban Loft",
           "address": "121 Metropolis Rd, Urban City",
@@ -943,7 +943,7 @@
         {
           "id": "48",
           "city":"Srinagar",
-          "type": "Penthouse Suite",
+          "type": "cottage",
           "amount_per_day": 3700,
           "name_of_property": "Summit Tower",
           "address": "909 Heights Rd, Highview",
@@ -983,7 +983,7 @@
         {
           "id": "50",
           "city":"Delhi",
-          "type": "Luxury Condo",
+          "type": "oyo",
           "amount_per_day": 2700,
           "name_of_property": "Urban Luxe",
           "address": "77 City Square, Downtown",
@@ -1003,7 +1003,7 @@
         {
           "id": "51",
           "city":"Delhi",
-          "type": "Luxury Suite",
+          "type": "Hotel",
           "amount_per_day": 3100,
           "name_of_property": "Vista Point",
           "address": "500 Skyline Rd, Panorama City",
@@ -1023,7 +1023,7 @@
         {
           "id": "52",
           "city":"Delhi",
-          "type": "Luxury Apartment",
+          "type": "lodge",
           "amount_per_day": 2700,
           "name_of_property": "Grand Tower",
           "address": "1 Majesty Rd, Kingstown",
@@ -1043,7 +1043,7 @@
         {
           "id": "53",
           "city":"Chennai",
-          "type": "Penthouse Suite",
+          "type": "mansion",
           "amount_per_day": 3900,
           "name_of_property": "Sky Palace",
           "address": "200 Crystal Rd, Jewel City",
@@ -1083,7 +1083,7 @@
         {
           "id": "55",
           "city":"Kerla",
-          "type": "Luxury Condo",
+          "type": "oyo",
           "amount_per_day": 2750,
           "name_of_property": "City Lights",
           "address": "55 Skyline Rd, Metro City",
