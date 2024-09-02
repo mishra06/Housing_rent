@@ -50,30 +50,30 @@ dispatch(SetAddToCart(cart));
             </div>
             <div className='layout_second_inner_section w-[90%] flex flex-col h-[30%]'>
               <div className='flex justify-between items-center px-2 py-1'>
-                <p className='text-lg font-medium'>{detail.amount_per_day}/day's</p>
+                <p className='text-lg text-gray-500 font-medium'>{detail.amount_per_day}/day's</p>
                 <span onClick={()=>{ AddtoCart(detail.id)}} className='text-xl font-bold cursor-pointer'>
                 {isLiked? <img className='h-6 w-6' src={heart} alt="heart" />:<FaRegHeart />}
                   </span>
               </div>
               <div className='text-lg font-medium px-2 py-1'>
-                <p>{detail.name_of_property}</p>
+                <p className='text-gray-500'>{detail.name_of_property}</p>
               </div>
-              <div className='text-lg font-medium px-2 py-1'>
+              <div className='text-lg text-gray-500 font-medium px-2 py-1'>
                 <p>{detail.address}</p>
               </div>
             </div>
             <div className='flex justify-around items-center h-[10%] w-full '>
               <div className=' flex justify-center items-center w-[30%] gap-1'>
-                <span className='font-medium'><FaBed /></span>
-                <span className='font-medium'>{detail.no_of_beds}Beds</span>
+                <span className='font-medium text-gray-500'><FaBed /></span>
+                <span className='font-medium text-gray-500'>{detail.no_of_beds}Beds</span>
               </div>
               <div className='flex justify-center items-center w-[30%] gap-1'>
-              <span className='font-medium'><FaBath /></span>
-              <span className='font-medium'>{detail.no_of_bathrooms}Bath</span>
+              <span className='font-medium text-gray-500'><FaBath /></span>
+              <span className='font-medium text-gray-500'>{detail.no_of_bathrooms}Bath</span>
               </div>
               <div className='flex justify-center items-center w-[30%] gap-1'>
-                <span><TbSquareRotated /></span>
-                <span className='font-medium'>{detail.size_of_room}</span>
+                <span className='text-gray-500'><TbSquareRotated /></span>
+                <span className='font-medium text-gray-500'>{detail.size_of_room}</span>
               </div>
             </div>
            </div>

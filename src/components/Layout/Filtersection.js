@@ -70,8 +70,8 @@ const Filtersection = () => {
 
 
   return (
-    <div className='filterSection bg-[#f5f6f9] h-[15vh] w-[85%] justify-evenly items-center flex text-left flex-wrap'>
-      <div className='filterSection_first_inner_div w-full h-full flex w-[80%] h-full justify-evenly align-center gap-6 '>
+    <div className='filterSection bg-[#f5f6f9] h-[15vh] w-[85%] justify-evenly items-center flex flex-wrap'>
+      <div className='filterSection_first_inner_div h-full flex w-[75%] h-full justify-evenly align-center gap-6 '>
         <div className='filterSection_first_1_inner_div flex justify-between w-[50%] h-full items-center gap-4'>
             <div className='filterSection_first_2_inner_div flex flex-col justify-evenly w-full h-full'>
               <p className='text-xl font-medium'>Enter City</p>
