@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 import HouseData from "../../Data.json"
 import { SetSearchByProperty } from '../../redux/Slice/ProSlice';
 import { useDispatch } from 'react-redux';
@@ -16,6 +16,9 @@ const Filtersection = () => {
   const navigate = useNavigate();
 
   const propertytypesOptions= [
+    {
+      name:'All',
+    },
     {
       name:'house',
     },
@@ -72,18 +75,28 @@ const Filtersection = () => {
     }
   ]
 
-  const SubmitHandeler=()=>{
-    if(city==="" && date==="" && selectPrice==="" && selectProperty===""){
-      alert("Please select atleast one filter")
+  const SubmitHandeler = () => {
+    if (city === "" && date === "" && selectPrice === "" && selectProperty === "") {
+      alert("Please select at least one filter");
       return;
-    }
-    else{
-      const filteredSearch = HouseData.filter((item)=>{
-        return(
-          item.name_of_property?.toLowerCase().includes(selectProperty.toLowerCase()) ||
-          item.amount_per_day.toString().includes(selectPrice) ||
-          item.city?.toLowerCase().includes(city.toLowerCase())
-        );
+    } else {
+      const filteredSearch = HouseData.filter((item) => {
+        let priceRange = selectPrice.split("-");
+        let minPrice = parseInt(priceRange[0]);
+        let maxPrice = parseInt(priceRange[1]);
+  
+        if (selectProperty === "All") {
+          return (
+            (city === "" || item.city.toLowerCase().includes(city.toLowerCase())) &&
+            (selectPrice === "" || (item.amount_per_day >= minPrice && item.amount_per_day <= maxPrice))
+          );
+        } else {
+          return (
+            (selectProperty === "" || item.type.toLowerCase().includes(selectProperty.toLowerCase())) &&
+            (city === "" || item.city.toLowerCase().includes(city.toLowerCase())) &&
+            (selectPrice === "" || (item.amount_per_day >= minPrice && item.amount_per_day <= maxPrice))
+          );
+        }
       });
       dispatch(SetSearchByProperty(filteredSearch));
       setCity("");
@@ -92,16 +105,17 @@ const Filtersection = () => {
       setSelectProperty("");
       navigate("/search");
     }
-  }
+  };
+  
 
 
   return (
     <div className='filterSection bg-[#f5f6f9] h-[15vh] w-[85%] justify-evenly items-center flex flex-wrap'>
-      <div className='filterSection_first_inner_div h-full flex w-[75%] h-full justify-evenly align-center gap-6 '>
+      <div className='filterSection_first_inner_div flex w-[75%] h-full justify-evenly align-center gap-6 '>
         <div className='filterSection_first_1_inner_div flex justify-between w-[50%] h-full items-center gap-4'>
             <div className='filterSection_first_2_inner_div flex flex-col justify-evenly w-full h-full'>
               <p className='text-xl font-medium'>Enter City</p>
-              <input className=' bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded'
+              <input className=' bg-[#f1f7ff] h-8 w-[15rem] outline-none p-2 border-2 border-solid border-gray rounded'
               onChange={(e)=>{setCity(e.target.value)}}
               value={city} type="text" />
             </div>
@@ -111,7 +125,7 @@ const Filtersection = () => {
               <input 
               value={date} 
               onChange={(e)=>{setDate(e.target.value)}}
-              className='bg-[#f1f7ff] h-8 w-[15rem] border-2 border-solid border-gray rounded' type="date" name="" id="" />
+              className='bg-[#f1f7ff] h-8 w-[15rem] outline-none border-2 border-solid border-gray rounded' type="date" name="" id="" />
             </div>
 
         </div>
@@ -140,7 +154,7 @@ const Filtersection = () => {
               value={selectProperty}
               onChange={(e)=>{setSelectProperty(e.target.value)}}
               className='h-8 w-[15rem] border-2 border-solid border-gray rounded bg-[#f1f7ff]' >
-                <option value="All">All</option>
+                <option value="All">Select</option>
                 {propertytypesOptions.map((item,index)=>{
                   return(
                     <option key={index} value={item.name}>{item.name}</option>
