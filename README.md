@@ -1,3 +1,8 @@
+*Hosted Link -- https://housing-rent-kappa.vercel.app/*
+
+![Screenshot 2024-09-23 000608](https://github.com/user-attachments/assets/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
